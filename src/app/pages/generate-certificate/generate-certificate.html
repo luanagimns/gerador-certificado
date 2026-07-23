@@ -1,0 +1,69 @@
+<div class="generate-certificate-container">
+  <div class="page-header">
+    <h1 class="page-title">Geração de certificado</h1>
+    <p class="page-subtitle">Preencha os dados para gerar um novo certificado</p>
+  </div>
+
+  <div class="form-card">
+    <h2 class="form-title">Novo certificado</h2>
+
+    <div class="form-group">
+      <label for="fullName" class="form-label">Nome completo</label>
+      <input
+        id="fullName"
+        type="text"
+        class="form-input"
+        placeholder="Digite o nome completo do aluno"
+        [(ngModel)]="fullName"
+      />
+    </div>
+
+    <div class="form-group">
+      <div class="activity-header">
+        <label for="activityTitle" class="form-label">Atividade</label>
+        <button
+          type="button"
+          class="btn-add"
+          (click)="addActivity()"
+          [disabled]="!activityTitle().trim()"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 5v14M5 12h14"/>
+          </svg>
+          Adicionar
+        </button>
+      </div>
+      <input
+        id="activityTitle"
+        type="text"
+        class="form-input"
+        placeholder="Digite o título da atividade"
+        [(ngModel)]="activityTitle"
+        (keyup.enter)="addActivity()"
+      />
+    </div>
+
+    <div *ngIf="activities().length > 0" class="activities-list">
+      <div *ngFor="let activity of activities(); let i = index" class="activity-item">
+        <span class="activity-text">{{ activity }}</span>
+        <button
+          type="button"
+          class="btn-remove"
+          (click)="removeActivity(i)"
+          title="Remover atividade"
+        >
+          ✕
+        </button>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="btn-generate"
+      (click)="generateCertificate()"
+      [disabled]="!fullName().trim() || activities().length === 0"
+    >
+      Gerar Certificado
+    </button>
+  </div>
+</div>
