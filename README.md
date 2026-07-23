@@ -4,17 +4,23 @@
 
 **Aplicação web para criar, listar e emitir certificados de conclusão de curso de forma rápida, elegante e personalizável.**
 
-<!-- ✏️ TROQUE os badges abaixo se mudar de licença, ou adicione o badge de Stars quando o repositório for público -->
+![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-success?style=for-the-badge&logo=github)
 ![Angular](https://img.shields.io/badge/Angular-22-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Vitest](https://img.shields.io/badge/Tested%20with-Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-blue?style=for-the-badge)
-<!-- ✏️ TROQUE <seu-usuario> pelo seu usuário/organização do GitHub -->
-![Last Commit](https://img.shields.io/github/last-commit/<seu-usuario>/gerador-certificado?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/<seu-usuario>/gerador-certificado?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/luanagimns/gerador-certificado?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/luanagimns/gerador-certificado?style=for-the-badge)
 
 </div>
+
+---
+
+## 🌐 Demo
+
+Confira a aplicação funcionando:
+
+🔗 **[https://luanagimns.github.io/gerador-certificado/](https://luanagimns.github.io/gerador-certificado/)**
 
 ---
 
@@ -99,15 +105,14 @@ public/
 
 ### Pré-requisitos
 
-- [Node.js](https://nodejs.org/) 18 ou superior
+- [Node.js](https://nodejs.org/) 22 ou superior
 - npm
 
 ### Passo a passo
 
 ```bash
 # 1. Clone o repositório
-# ✏️ TROQUE <seu-usuario> pelo seu usuário/organização do GitHub
-git clone https://github.com/<seu-usuario>/gerador-certificado.git
+git clone https://github.com/luanagimns/gerador-certificado.git
 
 # 2. Acesse a pasta do projeto
 cd gerador-certificado
@@ -174,11 +179,11 @@ A aplicação foi desenvolvida com layout totalmente responsivo, garantindo uma 
 
 ## 👩‍💻 Sobre a Desenvolvedora
 
-<!-- ✏️ TROQUE pelo seu nome, GitHub e LinkedIn -->
-Desenvolvido por **Seu Nome**
+<!-- ✏️ TROQUE o link do LinkedIn pelo seu -->
+Desenvolvido por **Luana Gimenes**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/<seu-usuario>)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/<seu-usuario>)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luanagimns)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/<seu-linkedin>)
 
 ---
 
