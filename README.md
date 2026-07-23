@@ -179,11 +179,10 @@ A aplicação foi desenvolvida com layout totalmente responsivo, garantindo uma 
 
 ## 👩‍💻 Sobre a Desenvolvedora
 
-<!-- ✏️ TROQUE o link do LinkedIn pelo seu -->
 Desenvolvido por **Luana Gimenes**
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luanagimns)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/<seu-linkedin>)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luanagimns/)
 
 ---
 
