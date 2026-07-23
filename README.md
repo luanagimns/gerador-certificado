@@ -1,59 +1,50 @@
-# GeradorCertificado
+# Gerador de Certificado
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.7.
+Aplicação Angular para gerar, listar e visualizar certificados de conclusão de curso.
 
-## Development server
+## Funcionalidades
 
-To start a local development server, run:
+- **Home** — página inicial de apresentação
+- **Lista de certificados** — visualização de todos os certificados já gerados
+- **Gerar certificado** — formulário para criar um novo certificado informando nome do aluno e atividades concluídas
+- **Detalhe do certificado** — visualização do certificado individual, com opção de download
 
-```bash
-ng serve
-```
+## Tecnologias
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- [Angular 22](https://angular.dev/)
+- TypeScript
+- Vitest (testes unitários)
 
-## Code scaffolding
+## Como rodar o projeto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Instale as dependências:
 
 ```bash
-ng generate --help
+npm install
 ```
 
-## Building
-
-To build the project run:
+Inicie o servidor de desenvolvimento:
 
 ```bash
-ng build
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Acesse `http://localhost:4200/` no navegador. A aplicação recarrega automaticamente a cada alteração nos arquivos.
 
-## Running unit tests
+## Build
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Para gerar o build de produção:
 
 ```bash
-ng test
+npm run build
 ```
 
-## Running end-to-end tests
+Os artefatos ficam disponíveis na pasta `dist/`.
 
-For end-to-end (e2e) testing, run:
+## Testes
+
+Para rodar os testes unitários:
 
 ```bash
-ng e2e
+npm test
 ```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
